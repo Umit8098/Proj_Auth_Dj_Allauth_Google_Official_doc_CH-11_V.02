@@ -1,0 +1,18 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+
+<div class="container pt-4">
+    <div class="row mt-2 p-0">
+        <div class="col-lg-4 mx-auto p-0">
+            <div class="text-center">
+                <h2 class="custom-border-radius">Google Authentication</h2>
+            </div>
+            {% if request.user.is_authenticated %}
+            <h2 class="custom-border-radius mt-3 text-center text-primary"> Welcome to Umit Developers Application</h2>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
