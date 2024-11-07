@@ -904,7 +904,7 @@ SOCIALACCOUNT_PROVIDERS = {
 ```
 
 
-- settings.py'a SOCIALACCOUNT_PROVIDERS  ekle. Eğer bunu eklemezsek, o an browser'daki google hesabı hangisi ise, hiç sormadan direkt o an açık olan hesap ile sisteme login/giriş yapıyor. Bunu ekleyerek hangi google hesabı ile giriş/login olmak istediğimizi seçebilmemizi sağıyoruz.
+- settings.py'a SOCIALACCOUNT_PROVIDERS  ekle. Eğer bunu eklemezsek, o an browser'daki google hesabı hangisi ise, hiç sormadan direkt o an açık olan hesap ile sisteme login/giriş yapıyor. Bunu ekleyerek hangi google hesabı ile giriş/login olmak istediğimizi seçebilmemizi sağlıyoruz.
 
 settings.py
 ```py
