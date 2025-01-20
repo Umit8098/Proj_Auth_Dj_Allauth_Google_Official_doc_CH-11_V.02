@@ -4,6 +4,9 @@ from django.contrib.auth import login, logout
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 
+#! Birden fazla authentication backend'i olduğu için, hangi backendi kullanacağını belirtmeliyiz.`backend` parametresini eklemek için import edildi. 2. Yol;
+from django.contrib.auth import get_backends
+
 # Create your views here.
 def home(request):
     return render(request, 'users/home.html')
@@ -14,7 +17,19 @@ def register(request):
         form_user = UserForm(request.POST)
         if form_user.is_valid():
             user = form_user.save()
-            login(request, user)
+            
+            #! Birden fazla authentication backend'i olduğu için, hangi backendi kullanacağını belirtiyoruz. `backend` parametresini ekliyoruz. Aynısını user_loginde de yapmalıyız eğer çalışmazsa. 1. Yol;
+            login(request, user, backend='allauth.account.auth_backends.AuthenticationBackend')
+
+            #! Birden fazla authentication backend'i olduğu için, hangi backendi kullanacağını belirtiyoruz. 2. Yol;
+            """
+            backend = get_backends()[0]  # İlk backend'i kullanabilirsiniz
+            backend_path = f"{backend.__module__}.{backend.__class__.__name__}"
+            login(request, user, backend=backend_path)
+            """
+
+            
+            # login(request, user)
             messages.success(request, 'You have been registered')
             return redirect('home')
     context = {
