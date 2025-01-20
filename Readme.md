@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Django_Template_Social_Authentication_App_(google)</h1>
+<h1 align="center">Django_Template_Social_Account_Authentication_App_(google)</h1>
 
 
 <div align="center">
