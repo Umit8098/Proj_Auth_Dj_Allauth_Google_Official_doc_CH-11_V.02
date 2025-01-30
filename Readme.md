@@ -108,12 +108,13 @@ $ git clone https://github.com/Umit8098/Project_Django_Templates_Todo_App_FB_Aut
 
 # Google API Ayarları
 
+For Google authentication, follow these steps:
 Google kimlik doğrulaması için şu adımları takip edin:
 
-1. [Google API Console](https://console.cloud.google.com/) adresine gidin ve yeni bir proje oluşturun.
-2. "OAuth Consent Screen" ayarlarını yapılandırın.
-3. "Credentials" sekmesinden `GOOGLE_CLIENT_ID` ve `GOOGLE_SECRET` bilgilerini alın.
-4. Bu bilgileri `.env` dosyanıza ekleyin.
+1. [Google API Console](https://console.cloud.google.com/) Go to and create a new project.
+2. "OAuth Consent Screen" configure settings.
+3. Get `GOOGLE_CLIENT_ID` and `GOOGLE_SECRET` information from the "Credentials" tab.
+4. Add this information to your `.env` file.
 
 
 """
