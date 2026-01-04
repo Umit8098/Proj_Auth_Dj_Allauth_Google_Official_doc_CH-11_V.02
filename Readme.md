@@ -44,8 +44,8 @@ Its main features are:
 <!-- ![screenshot](project_screenshot/Social_Account_Auth_App.gif) -->
 <div align="center">
   <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
-  ➡ The screen where users log in with their Google accounts and access the home page.
 </div>
+  ➡ The screen where users log in with their Google accounts and access the home page.
 
 
 
