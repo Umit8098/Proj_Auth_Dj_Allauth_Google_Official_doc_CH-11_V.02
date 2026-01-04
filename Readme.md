@@ -1,11 +1,20 @@
 <!-- Please update value in the {}  -->
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-5.x-success?logo=django" />
+  <img src="https://img.shields.io/badge/Auth-Google%20OAuth2-blue?logo=google" />
+  <img src="https://img.shields.io/badge/Allauth-Authentication-orange" />
+  <img src="https://img.shields.io/badge/Deployment-PythonAnywhere-purple" />
+</p>
+
+
 <h1 align="center">🔐 Google Authentication API <br/>
 Django Allauth
 </h1>
 
-<p align="center"><strong>🔑 An application that provides user authentication via Google account with Django
- 🔑</strong></p>
+<p align="center">
+🔑 Secure Google OAuth2 authentication with Django Allauth — production-ready & easy to integrate.🔑
+</p>
 
 <div align="center">
   <h3>
@@ -15,10 +24,9 @@ Django Allauth
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
-## Table of Contents
-- [Table of Contents](#table-of-contents)
+## Navigation
+
 - [About This Project](#about-this-project)
 - [Overview](#overview)
 - [Built With](#built-with)
