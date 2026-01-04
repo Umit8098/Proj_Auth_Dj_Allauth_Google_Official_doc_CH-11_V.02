@@ -45,8 +45,9 @@ Its main features are:
 <div align="center">
   <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
 </div>
+<p align="center">
   ➡ The screen where users log in with their Google accounts and access the home page.
-
+</p>
 
 
 ## Built With
