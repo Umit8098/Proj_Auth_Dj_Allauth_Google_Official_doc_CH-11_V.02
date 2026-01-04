@@ -1,6 +1,8 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Django_Template_Social_Account_Authentication_App_(google)</h1>
+<h1 align="center">🔐 Google Authentication API <br/>
+Django Allauth
+</h1>
 
 <p align="center"><strong>🔑 An application that provides user authentication via Google account with Django
  🔑</strong></p>
@@ -19,7 +21,6 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
-
 - [Table of Contents](#table-of-contents)
 - [About This Project](#about-this-project)
 - [Overview](#overview)
