@@ -46,7 +46,7 @@ Its main features are:
   <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
 </div>
 <p align="center">
-  ➡ The screen where users log in with their Google accounts and access the home page.
+  The screen where users log in with their Google accounts and access the home page.
 </p>
 
 
@@ -55,7 +55,7 @@ Its main features are:
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 This project was developed using the following tools and libraries:
 
-- [Django Templates](https://docs.djangoproject.com/en/5.1/topics/templates/): For creating dynamic web pages.
+- [Django (Server-side rendered authentication with templates)](https://docs.djangoproject.com/en/5.1/topics/templates/): For creating dynamic web pages.
 - [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): To provide a responsive and modern user interface.
 - [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/): To easily style forms.
 - [django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html) - Social Account Authentication Management
@@ -74,7 +74,7 @@ Complete the installation by uncommenting the appropriate package.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Templates_Todo_App_FB_Authantication-1_CH-11.git
+$ git clone https://github.com/Umit8098/Proj_Auth_Dj_Allauth_Google_Official_doc_CH-11_V.02.git
 
 # Install dependencies
     $ python -m venv env
