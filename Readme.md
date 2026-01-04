@@ -21,7 +21,6 @@ Django Allauth
 - [Table of Contents](#table-of-contents)
 - [About This Project](#about-this-project)
 - [Overview](#overview)
-  - [Social Account Authentication](#social-account-authentication)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
 - [Key Features](#key-features)
@@ -42,7 +41,6 @@ Its main features are:
 
 ## Overview
 
-### Social Account Authentication
 <!-- ![screenshot](project_screenshot/Social_Account_Auth_App.gif) -->
 <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
 ➡ The screen where users log in with their Google accounts and access the home page.
