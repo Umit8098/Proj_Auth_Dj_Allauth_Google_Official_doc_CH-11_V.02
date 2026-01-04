@@ -7,9 +7,6 @@ Django Allauth
 <p align="center"><strong>🔑 An application that provides user authentication via Google account with Django
  🔑</strong></p>
 
-<p align="center">🔑 Django ile Google hesabı üzerinden kullanıcı kimlik doğrulaması sağlayan bir uygulama 🔑</p>
-
-
 <div align="center">
   <h3>
     <a href="https://umit8110.pythonanywhere.com/">
@@ -41,16 +38,6 @@ Its main features are:
 - Social authentication management with Django Allauth.
 - User-friendly message notifications and stylish design with Bootstrap.
 
----
-
-Bu proje, Django ile kullanıcıların Google hesabı üzerinden kolayca kayıt ve giriş yapmasını sağlamaktadır. 
-Başlıca özellikleri şunlardır:
-
-- Google hesabı ile hızlı ve güvenli kimlik doğrulama.
-- Geleneksel kullanıcı adı ve şifre ile kayıt ve giriş desteği.
-- Django Allauth ile sosyal kimlik doğrulama yönetimi.
-- Kullanıcı dostu mesaj bildirimleri ve Bootstrap ile şık tasarım.
-
 <!-- OVERVIEW -->
 
 ## Overview
@@ -60,7 +47,6 @@ Başlıca özellikleri şunlardır:
 <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
 ➡ The screen where users log in with their Google accounts and access the home page.
 
----
 
 
 ## Built With
@@ -84,12 +70,6 @@ To clone and run this application, you'll need [Git](https://github.com/Umit8098
 When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
 
 Complete the installation by uncommenting the appropriate package.
-
----
-
-requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
-
-Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
 
 ```bash
 # Clone this repository
@@ -138,13 +118,6 @@ GOOGLE_SECRET={YOUR_GOOGLE_SECRET}
 - **Traditional Authentication**: Support user registration and login with email and password.
 - **Profile Management**: Registered users can edit account information.
 - **User Notifications**: Feedback is provided about the actions taken.
-
----
-
-- **Google Hesabı ile Kimlik Doğrulama**: Kullanıcılar Google hesaplarını kullanarak hızlı giriş yapabilir.
-- **Geleneksel Kimlik Doğrulama**: E-posta ve şifre ile kullanıcı kaydı ve giriş desteği.
-- **Profil Yönetimi**: Kayıtlı kullanıcılar hesap bilgilerini düzenleyebilir.
-- **Kullanıcı Bildirimleri**: Yapılan işlemler hakkında geri bildirim sağlanır.
 
 
 ## Contact
