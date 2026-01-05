@@ -19,16 +19,22 @@ Django Allauth
 <div align="center">
   <h3>
     <a href="https://umit8110.pythonanywhere.com/">
-      Live Demo
-    </a> 
+      🖥️ Live Demo
+    </a>
+      | 
+    <a href="https://github.com/Umit8098/Proj_Auth_Dj_Allauth_Google_Official_doc_CH-11_V.02.git">
+      📂 Project
+    </a>
+
   </h3>
 </div>
+
+![Social Account Authentication](project_screenshot/Social_Account_Auth_App.gif)
 
 
 ## Navigation
 
 - [About This Project](#about-this-project)
-- [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
 - [Key Features](#key-features)
@@ -44,18 +50,6 @@ Its main features are:
 - Support registration and login with traditional username and password.
 - Social authentication management with Django Allauth.
 - User-friendly message notifications and stylish design with Bootstrap.
-
-<!-- OVERVIEW -->
-
-## Overview
-
-<!-- ![screenshot](project_screenshot/Social_Account_Auth_App.gif) -->
-<div align="center">
-  <img src="project_screenshot/Social_Account_Auth_App.gif" alt="Social Account Authentication" width="400"/>
-</div>
-<p align="center">
-  The screen where users log in with their Google accounts and access the home page.
-</p>
 
 
 ## Built With
