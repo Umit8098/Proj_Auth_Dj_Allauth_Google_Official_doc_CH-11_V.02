@@ -23,7 +23,7 @@ Django Allauth
     </a>
       | 
     <a href="https://github.com/Umit8098/Proj_Auth_Dj_Allauth_Google_Official_doc_CH-11_V.02.git">
-      📂 Project
+      📂 Repository
     </a>
 
   </h3>
